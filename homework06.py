@@ -3,24 +3,25 @@
 # Вывести числа которые больше предыдущего
 
 # До
-# lst = [2, 44, 77, 1, 1 ,9, 53, 2, 22, 44, 11]
+# lst = [2, 44, 77, 1, 1, 9, 53, 2, 22, 44, 11]
 # lst = [lst[i] for i in range(1, len(lst)) if lst[i] > lst[i-1]]
 # print(lst)
 
 # После
 # print('Введите числа через пробел: ')
-# a=list(map(int,input().split()))
-# print(' '.join(map(lambda p : str(p[1]), filter(lambda p : p[1] > p[0], zip(a[:-1],a[1:])))))
+# a = list(map(int, input().split()))
+# print(' '.join(map(lambda p: str(p[1]), filter(
+#     lambda p: p[1] > p[0], zip(a[:-1], a[1:])))))
 
 # Вывести элементы у которых нет повторений
 
 # До
-# lst = [2, 44, 77, 1, 1 ,9, 53, 2, 22, 44, 11]
+# lst = [2, 44, 77, 1, 1, 9, 53, 2, 22, 44, 11]
 # lst = [el for el in lst if lst.count(el) == 1]
 # print(lst)
 
 # После
-# lst = [2, 44, 77, 1, 1 ,9, 53, 2, 22, 44, 11]
+# lst = [2, 44, 77, 1, 1, 9, 53, 2, 22, 44, 11]
 # lst = [i for n, i in enumerate(lst) if i not in lst[:n]]
 # print(lst)
 
@@ -35,11 +36,13 @@
 Введите ваш возраст: 45
 Ваши данные для входа в аккаунт: имя - Василий, пароль - vas, возраст - 45
 """
+
 # name = input('Введите свое имя: ')
 # password = input('Введите ваш пароль: ')
 # age = int(input('Введите ваш возраст: '))
 # print(f'Ваши данные для входа в аккаунт: {name}, {password}, {age}')
-# print(f'Ваши данные для входа в аккаунт: Имя - {name}, Пароль - {password}, Возраст - {age}.')
+# print(
+#     f'Ваши данные для входа в аккаунт: Имя - {name}, Пароль - {password}, Возраст - {age}.')
 
 """
 Задание 2.
